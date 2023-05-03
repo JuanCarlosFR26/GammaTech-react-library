@@ -30,9 +30,7 @@ export default function HomePage() {
         setTimeout(() => {
             getData()
             setIsLoading(false)
-        }, 1000)
-
-        
+        }, 3000)
 
     }, [])
 
